@@ -8,19 +8,19 @@
 
 for($i = 1; $i <= 100; $i++){
     
-    $acc = $i;
-    $numbers[] = $acc;
     
-        if($acc % 3 == 0 && $acc % 5 == 0){
-            echo $acc . " HACKADEMY" . "\n";
+    $numbers[] = $i;
+    
+        if($i % 3 == 0 && $i % 5 == 0){
+            echo $i . " HACKADEMY" . "\n";
         }elseif ($acc % 3 == 0) {
-            echo $acc . " PHP " . "\n";
+            echo $i . " PHP " . "\n";
         }
-        else if($acc % 5 == 0){
-            echo $acc . " Javascript" . "\n";
+        else if($i % 5 == 0){
+            echo $i . " Javascript" . "\n";
         }
         else{
-            echo $acc . "\n";
+            echo $i . "\n";
         };
 
 };
